@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-image: url(Wander\ Guide\ _\ Ireland\ Part\ 1\ _\ Dublin\ -\ Local\ Milk\ Blog.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -7px;
+}
