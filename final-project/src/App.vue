@@ -68,7 +68,7 @@ export default{
         return{
             books: [],
             showAddBook: false,
-            showBooks: false,
+            showBooks: true,
             showSearchBook: false,
             searched:false,
             book: {},

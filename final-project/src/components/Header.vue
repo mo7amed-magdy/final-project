@@ -5,19 +5,24 @@
 @toggle-add-book="$emit('toggle-add-book')"
 class="	a"
  :text="showAddBook ? 'Close' : 'Add Book'"
- :color="showAddBook ? 'red' : 'white'" />
+ :color="showAddBook ? 'red' : 'white'"
+ :icon="'fas fa-plus'"
+ />
 
   <Button 
 @toggle-search-books="$emit('toggle-search-books')"
 class="	a"
  :text="Searchbook ? 'Close' : 'Search Book'"
- :color="Searchbook ? 'red' : 'white'" />
+ :color="Searchbook ? 'red' : 'white'"
+ :icon="'fas fa-magnifying-glass'"
 
-  <Button 
+ />
+
+  <!-- <Button 
 @toggle-show-books="$emit('toggle-show-books')"
 class="a"
  :text="showBooks ? 'Close' : 'Show Books'"
-  :color="showBooks ? 'red' : 'white'" />
+  :color="showBooks ? 'red' : 'white'" /> -->
 </header>
 
 

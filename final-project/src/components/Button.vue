@@ -1,6 +1,9 @@
 <template>
 
-<button :style="{color: color}" @click="onclick()" >{{text}}</button>
+<button :style="{color: color}" @click="onclick()" >{{text}}
+<i :class="icon"
+></i>
+</button>
 
 </template>
 
@@ -9,7 +12,8 @@ export default{
 name:'Button',
 props:{
     text: String,
-    color: String
+    color: String,
+    icon:String
 },
 methods:{
     onclick(){
